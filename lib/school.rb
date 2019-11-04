@@ -11,6 +11,7 @@ class School
  end 
 
  def add_student(name,grade)
-grade= []
-roster[grade << name]
+    grade= []
+    roster[grade << name]
+  end
 end
