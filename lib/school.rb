@@ -11,7 +11,7 @@ class School
  end 
 
  def add_student(name,grade)
-    @grade ||=[]
-    
+    roster[grade] ||=[]
+    roster[grade].push(name)
   
 end
