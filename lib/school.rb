@@ -21,6 +21,9 @@ class School
     hash = {}
     roster.each do |grade, student|
       hash[grade] = student.sort
+    end
+    hash
+  end
       
     
     
