@@ -19,7 +19,8 @@ class School
     
   def sort 
     hash = {}
-    roster.each do 
+    roster.each do |grade, student|
+      roster
       
     
     
