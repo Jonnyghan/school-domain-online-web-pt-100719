@@ -18,7 +18,9 @@ class School
   end
     
   def sort 
-    roster.sort
+    hash = {}
+    roster.each do 
+      
     
     
 end
